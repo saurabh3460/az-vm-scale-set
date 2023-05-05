@@ -28,7 +28,7 @@ resource "azurerm_linux_virtual_machine_scale_set" "cluster1" {
 
   admin_ssh_key {
     username = "adminuser"
-    public_key = data.tls_public_key.pub_key.public_key_pem
+    public_key = data.tls_public_key.pub_key.public_key_openssh
   }
 
   source_image_reference {
