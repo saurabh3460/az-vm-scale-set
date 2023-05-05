@@ -1,0 +1,1 @@
+pub_key_path = "/home/saurabh/Desktop/P-Workspace/vmss/key.pub"
